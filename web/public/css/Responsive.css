@@ -1,0 +1,457 @@
+.road-animation{
+    max-width: 2000px;
+    margin: auto;
+}
+@media screen and (max-width: 1700px) {
+    .carousel-item, .carousel-img{
+        height: 1000px;
+
+    }
+
+    .carousel-control-next img, .carousel-control-prev img{
+        margin-top: 80px;
+    }
+    .map{
+        margin: 0 7%;
+    }
+    .left{
+    padding: 35px  40px 60px 40px;
+}
+.right{
+    padding: 35px 0 0 40px;
+}
+    .right .right-text{
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .contact .left h1{
+        font-size: 40px;
+        width: 100%;
+    }
+    .check-box{
+        margin-left: 70px;
+    }
+    .button {
+        margin: 40px 25px 40px 0;
+    }
+    .gender{
+        margin-right: 160px;
+    }
+}
+@media screen and (max-width: 1600px) {
+
+    .carousel-inner img {
+        zoom: 0.8;
+    }
+    .menu-text{
+        font-size: 60px;
+    }
+    .head-icon, .menu-logo{
+        height: 160px;
+    }
+    .carousel-prev, .carousel-next{
+        height: 25%;
+    }
+    .carousel-item, .carousel-img{
+        height: 800px;
+    }
+    .carousel-control-next img, .carousel-control-prev img{
+        margin-top: 80px;
+    }
+    .carousel-control-next , .carousel-control-prev {
+    width: 100px;
+    }
+    .map{
+        margin: 0 7%;
+    }
+}
+@media screen and (max-width: 1350px) {
+    .carousel-inner img {
+        zoom: 0.7;
+    }
+
+    .menu-text{
+        font-size: 50px;
+    }
+    .carousel-prev, .carousel-next{
+        height: 25%;
+    }
+    .carousel-item, .carousel-img{
+        height: 700px;
+    }
+    .carousel-control-next img, .carousel-control-prev img{
+        margin-top: 70px;
+    }
+    .carousel-control-next , .carousel-control-prev {
+        width: 90px;
+    }
+    .map{
+        margin: 0 7%;
+    }
+    .grid-container {
+        grid-template-columns: 300px 300px 300px;
+        grid-template-rows: 309px;
+        grid-column-gap: 50px;
+    }
+    .gear, .gear2, .gear3{
+        width: 90px;
+    }
+    .key{
+        width: 55px;
+    }
+    .gender{
+        margin-right: 60px;
+    }
+    .grid-item p{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .carousel-inner img {
+        zoom: 0.6;
+    }
+
+    .carousel-caption p, .carousel-caption h2{
+       font-size: 40px;
+   }
+    .carousel-item, .carousel-img{
+        height: 600px;
+    }
+    .carousel-prev, .carousel-next{
+        height: 27%;
+    }
+    .carousel-control-next img, .carousel-control-prev img{
+        margin-top: 65px;
+    }
+    .carousel-control-next , .carousel-control-prev {
+        width: 80px;
+    }
+    .map{
+        margin: 0 5%;
+    }
+    .left{
+        padding: 45px  20px 70px 20px;
+        height: 585px;
+    }
+    .right{
+        padding: 45px 0 0 20px;
+        height: 585px;
+    }
+    .head-icon, .menu-logo{
+        height: 130px;
+    }
+}
+@media screen and (max-width: 1100px) {
+    .carousel-inner img {
+        zoom: 0.59;
+    }
+
+
+    .carousel-prev, .carousel-next{
+        height: 26%;
+    }
+    .carousel-control-next , .carousel-control-prev {
+        width: 75px;
+    }
+   .map{
+       height: 700px;
+   }
+    input[type=text], textarea, .text-area{
+        width: 180px;
+    }
+    .grid-container {
+        grid-template-columns: 250px 250px 250px;
+        grid-template-rows: 250px;
+        grid-column-gap: 30px;
+    }
+    .grid-item p{
+        font-size: 30px;
+    }
+    .animation{
+        margin: 40px 0;
+    }
+    .gear, .gear2, .gear3{
+        width: 60px;
+    }
+    .key{
+        width: 37px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .head-icon, .menu-logo{
+        height: 100px;
+    }
+    .map{
+        width: 100%;
+        height: 600px;
+        margin: auto;
+    }
+    .contact{
+        margin-top: -318px;
+    }
+    .hide{
+        visibility: hidden;
+        position: absolute;
+    }
+    .left-bottom{
+        margin: auto;
+    }
+    .left{
+        height: auto;
+    }
+    .contact .right{
+        background-color: #EBE8DE;
+        margin: 0 10%;
+    }
+    .contact {
+        display: grid;
+        flex-direction: column;
+    }
+    footer  {order: 3;}
+    .left {order: 2;}
+    .right {order: 1;}
+    .left-bottom-text{
+        float: left;
+        display: flex;
+    }
+    .left-bottom ul{
+        float: right;
+    }
+    .soc-icon{
+        height: 50px;
+        width: 50px;
+            }
+    .left-bottom h1{
+        float: left;
+        display: block;
+    }
+.click br{
+    display:none;
+}
+    input[type=text], textarea, .text-area{
+        width: 240px;
+    }
+    .right{
+        margin: 45px 0 15px 75px;
+        padding: 45px 0 15px 75px;
+    }
+    .left{
+        padding: 30px 5% 30px 5%;
+        background-color: #FFFFFF;
+    }
+    footer{
+        padding: 0 5%;
+    }
+    .check-box{
+        margin-left: 90px;
+    }
+    .check-box label{
+        margin-right: 30px;
+    }
+    .right .right-text{
+            font-size: 50px;
+        }
+    .contact .left h1{
+        font-size: 50px;
+    }
+    }
+
+
+
+
+@media screen and (max-width: 870px) {
+    .carousel-caption p, .carousel-caption h2{
+        font-size: 20px;
+    }
+    .garage{
+        font-size: 40px;
+    }
+    .head-icon, .menu-logo{
+        height: 80px;
+    }
+    .grid-container {
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px;
+        grid-column-gap: 20px;
+    }
+    .animation{
+        margin: 20px 0;
+    }
+.check-box{
+    width: 250px;
+}
+    .contact .left h1{
+        font-size: 30px;
+        overflow: hidden;
+    }
+    .soc-icon{
+        height: 30px;
+        width: 30px;
+    }
+    .check-box{
+        margin-left: 40px;
+    }
+    .right{
+        padding-left: 40px;
+    }
+    .gender{
+        margin-right: auto;
+    }
+    .text-area textarea, .text-area,.text-area input{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .garage{
+        font-size: 36px;
+    }
+    .head-icon, .menu-logo{
+        height: 70px;
+    }
+    .check-box{
+        margin: 30px  0 0 0;
+        display: block;
+        width: 100%;
+    }
+    .text-area .input{
+        width: 100%;
+    }
+    .text-area{
+        width: 100%;
+    }
+    .button{
+        float: left;
+    }
+    .gender{
+        margin-bottom: 35px;
+    }
+    .right{
+        padding: 15px;
+        height: auto;
+    }
+    .grid-container{
+        grid-row-gap: 40px;
+        grid-template-columns: 573px;
+        grid-template-rows: 80% 80% 80%;
+        margin: 0 10%;
+    }
+    .gear, .gear2, .gear3{
+        margin: auto;
+        overflow: hidden;
+        width: 135px;
+    }
+    .animation{
+        margin: 100px 0;
+    }
+    .key{
+        width: 82px;
+    }
+    .grid-item p{
+        font: 50px 'Roboto-Condensed';
+        margin: 0;
+        float: bottom;
+    }
+    .grid-item a{
+        color: black;
+        text-decoration: none;
+    }
+
+    .soc-icon{
+        width: 35px;
+        height: 35px;
+    }
+    .contact .left h1{
+        font-size: 20px;
+    }
+    .button{
+        margin: 30px 0 20px 0;
+    }
+}
+@media screen and (max-width: 670px) {
+    .grid-container{
+        grid-row-gap: 40px;
+        grid-template-columns: 300px;
+    }
+    .grid-item p {
+        font-size: 30px;
+    }
+    .chaild2{
+        margin: auto;
+    }
+
+    .garage{
+        font-size: 30px;
+    }
+    .right .right-text{
+        font-size: 40px;
+    }
+
+
+}
+@media screen and (max-width: 570px) {
+    .right .right-text{
+        font-size: 25px;
+    }
+
+    .garage{
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    .garage{
+        font-size: 20px;
+    }
+    .volvo{
+        margin: 75px auto auto 60%;
+    }
+}
+@media screen and (max-width: 400px) {
+    .garage{
+        font-size: 15px;
+    }
+    .right .right-text{
+        font-size: 20px;
+    }
+    .animation{
+        margin: 0 10%;
+    }
+    .carousel-prev, .carousel-next{
+        height: 30%;
+    }
+    .carousel-item, .carousel-img{
+        height: 400px;
+    }
+    .carousel-control-next img, .carousel-control-prev img{
+        margin-top: 48px;
+    }
+    .carousel-control-next , .carousel-control-prev {
+        width: 50px;
+    }
+    .head-icon, .menu-logo{
+        height: 50px;
+    }
+    .menu-text{
+        font-size: 30px;
+    }
+
+    .footer-right{
+        font-size: 10px;
+    }
+    footer .footer-left{
+        font-size: 10px;
+
+    }
+    .contact .left h1{
+        font-size: 15px;
+    }
+
+    .soc-icon{
+        width: 15px;
+        height: 15px;
+    }
+
+
+}
